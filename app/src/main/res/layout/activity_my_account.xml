@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyAccount">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backround" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="573dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_message_24"
+            android:text="My requests"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_language_24"
+            android:text="English"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_favorite_border_24"
+            android:text="favorite"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_privacy_tip_24"
+            android:text="Privacy"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:text="Conditions"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="188dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_shopping_bag_24"
+            android:text="Delivery Information"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:text="call us"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
